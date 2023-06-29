@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        DOCUMENTACIÓN GRUPO 3 - TRABAJO FINAL DE WEB - HackMD
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@hackmd/emojify.js@2.1.0/dist/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{background:#fff;color:#333;display:block;overflow-x:auto;padding:.5em}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{background-color:#eaffea;color:#55a532}.hljs-deletion{background-color:#ffecec;color:#bd2c00}.hljs-link{text-decoration:underline}.markdown-body{word-wrap:break-word;font-size:16px;line-height:1.5}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body hr{background-color:#e7e7e7;border:0;height:.25em;margin:24px 0;padding:0}.markdown-body blockquote{border-left:.25em solid #ddd;color:#777;font-size:16px;padding:0 1em}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{background-color:#fcfcfc;border:1px solid;border-color:#ccc #ccc #bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;color:#555;display:inline-block;font-size:11px;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{border-bottom:1px solid #eee;padding-bottom:.3em}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{color:#777;font-size:.85em}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{padding-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:700;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table{display:block;overflow:auto;width:100%;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{border:1px solid #ddd;padding:6px 13px}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{background-color:#fff;box-sizing:initial;max-width:100%}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:initial;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid #ddd;display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:#333;display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:#0000000a;border-radius:3px;font-size:85%;margin:0;padding:.2em 0}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{content:"\00a0";letter-spacing:-.2em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{background:#0000;border:0;font-size:100%;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:#f7f7f7;border-radius:3px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:initial;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{background:#fff;border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:#f8f8f8;border-top:0;font-weight:700}.news .alert .markdown-body blockquote{border:0;padding:0 0 0 40px}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{cursor:default!important;float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle}.markdown-body{max-width:758px;overflow:visible!important;padding-bottom:40px;padding-top:40px;position:relative}.markdown-body.next-editor{overflow-x:hidden!important}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{border-right:3px solid #6ce26c!important;box-sizing:initial;color:#afafaf!important;cursor:default;display:inline-block;min-width:20px;padding:0 8px 0 0;position:relative;text-align:right;z-index:4}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-bottom:none;border-left:none;border-top:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-collapse:inherit!important;border-spacing:0}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{margin-bottom:unset;overflow:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p:last-child{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram,.markdown-body pre.vega{background-color:inherit;border-radius:0;overflow:visible;text-align:center;white-space:inherit}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code,.markdown-body pre.vega>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg,.markdown-body pre.vega>svg{height:100%;max-width:100%}.markdown-body pre>code.wrap{word-wrap:break-word;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap}.markdown-body .alert>p:last-child,.markdown-body .alert>ul:last-child{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{background-color:#000;background-position:50%;background-repeat:no-repeat;background-size:contain;cursor:pointer;display:table;overflow:hidden;text-align:center}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{object-fit:contain;width:100%;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{height:100%;left:0;position:absolute;top:0;width:100%}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{color:#fff;height:auto;left:50%;opacity:.3;position:absolute;top:50%;transform:translate(-50%,-50%);transition:opacity .2s;width:auto;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.figma{display:table;padding-bottom:56.25%;position:relative;width:100%}.figma iframe{border:1px solid #eee;bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.markmap-container{height:300px}.markmap-container>svg{height:100%;width:100%}.MJX_Assistive_MathML{display:none}#MathJax_Message{z-index:1000!important}.ui-infobar{color:#777;margin:25px auto -25px;max-width:760px;position:relative;z-index:2}.toc .invisable-node{list-style-type:none}.ui-toc{bottom:20px;position:fixed;z-index:998}.ui-toc.both-mode{margin-left:8px}.ui-toc.both-mode .ui-toc-label{border-bottom-left-radius:0;border-top-left-radius:0;height:40px;padding:10px 4px}.ui-toc-label{background-color:#e6e6e6;border:none;color:#868686;transition:opacity .2s}.ui-toc .open .ui-toc-label{color:#fff;opacity:1;transition:opacity .2s}.ui-toc-label:focus{background-color:#ccc;color:#000;opacity:.3}.ui-toc-label:hover{background-color:#ccc;opacity:1;transition:opacity .2s}.ui-toc-dropdown{margin-bottom:20px;margin-top:20px;max-height:70vh;max-width:45vw;overflow:auto;padding-left:10px;padding-right:10px;text-align:inherit;width:25vw}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{letter-spacing:.0029em;padding-right:0}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{color:#767676;display:block;font-size:13px;font-weight:500;padding:4px 20px}.ui-toc-dropdown .nav>li:first-child:last-child>ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{background-color:initial;border-left:1px solid #000;color:#000;padding-left:19px;text-decoration:none}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{border-left:none;border-right:1px solid #000;padding-right:19px}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{background-color:initial;border-left:2px solid #000;color:#000;font-weight:700;padding-left:18px}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{border-left:none;border-right:2px solid #000;padding-right:18px}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{font-size:12px;font-weight:400;padding-bottom:1px;padding-left:30px;padding-top:1px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{font-size:12px;font-weight:400;padding-bottom:1px;padding-left:40px;padding-top:1px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{font-weight:500;padding-left:28px}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{font-weight:500;padding-left:38px}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{max-height:70vh;max-width:15vw;overflow:auto;position:fixed;top:0}.back-to-top,.expand-toggle,.go-to-bottom{color:#999;display:block;font-size:12px;font-weight:500;margin-left:10px;margin-top:10px;padding:4px 10px}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{background-position:50%;background-repeat:no-repeat;background-size:cover;border-radius:50%;display:block;height:20px;margin-bottom:2px;margin-right:5px;margin-top:2px;width:20px}.ui-user-icon.small{display:inline-block;height:18px;margin:0 0 .2em;vertical-align:middle;width:18px}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-more-info{color:#888;cursor:pointer;vertical-align:middle}.ui-more-info .fa{font-size:16px}.ui-connectedGithub,.ui-published-note{color:#888}.ui-connectedGithub{line-height:23px;white-space:nowrap}.ui-connectedGithub a.file-path{color:#888;padding-left:22px;text-decoration:none}.ui-connectedGithub a.file-path:active,.ui-connectedGithub a.file-path:hover{color:#888;text-decoration:underline}.ui-connectedGithub .fa{font-size:20px}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}.selectable{-webkit-user-select:text;-o-user-select:text;user-select:text}.inline-spoiler-section{cursor:pointer}.inline-spoiler-section .spoiler-text{background-color:#333;border-radius:2px}.inline-spoiler-section .spoiler-text>*{opacity:0}.inline-spoiler-section .spoiler-img{filter:blur(10px)}.inline-spoiler-section.raw{background-color:#333;border-radius:2px}.inline-spoiler-section.raw>*{opacity:0}.inline-spoiler-section.unveil{cursor:auto}.inline-spoiler-section.unveil .spoiler-text{background-color:#3333331a}.inline-spoiler-section.unveil .spoiler-text>*{opacity:1}.inline-spoiler-section.unveil .spoiler-img{filter:none}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{color:#222;position:relative;z-index:1}.markdown-body.slides:before{background-color:currentColor;bottom:0;box-shadow:0 0 0 50vw;content:"";display:block;left:0;position:absolute;right:0;top:0;z-index:-1}.markdown-body.slides section[data-markdown]{background-color:#fff;margin-bottom:1.5em;position:relative;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{left:1em;max-height:100%;overflow:hidden;position:absolute;right:1em;top:50%;transform:translateY(-50%)}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{border:3px solid #777;content:"";height:1.5em;position:absolute;right:1em;top:-1.5em}.site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif}html[lang=zh-tw] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .site-ui-font{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;-webkit-overflow-scrolling:touch;font-family:Source Sans Pro,Helvetica,Arial,sans-serif;letter-spacing:.025em}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}svg{text-shadow:none}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true"><div class="title-tags-preview"><h1 class="font-bold text-19 leading-120 !mt-0 text-zinc-800" id="DOCUMENTACIÓN-GRUPO-3---TRABAJO-FINAL-DE-WEB" data-id="DOCUMENTACIÓN-GRUPO-3---TRABAJO-FINAL-DE-WEB"><a class="anchor hidden-xs" href="#DOCUMENTACIÓN-GRUPO-3---TRABAJO-FINAL-DE-WEB" title="DOCUMENTACIÓN-GRUPO-3---TRABAJO-FINAL-DE-WEB"><span class="octicon octicon-link"></span></a>DOCUMENTACIÓN GRUPO 3 - TRABAJO FINAL DE WEB</h1><div class="flex flex-wrap gap-1 mb-4"></div></div><h3 id="Integrantes" data-id="Integrantes"><a class="anchor hidden-xs" href="#Integrantes" title="Integrantes"><span class="octicon octicon-link"></span></a><span>Integrantes</span></h3><ul>
+<li><span>Villa Mera, Jasmin</span></li>
+<li><span>Chavez Sanchez, Jose Raul</span></li>
+<li><span>Fernandez Alva, Edu</span></li>
+</ul><h3 id="TABLA-USUARIO" data-id="TABLA-USUARIO"><a class="anchor hidden-xs" href="#TABLA-USUARIO" title="TABLA-USUARIO"><span class="octicon octicon-link"></span></a><span>TABLA: USUARIO</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_usuario</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>Nombres</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>Apellido</span></strong></td>
+<td><span>varchar(40)</span></td>
+</tr>
+<tr>
+<td><strong><span>Email</span></strong></td>
+<td><span>varchar(60)</span></td>
+</tr>
+<tr>
+<td><strong><span>Contraseña</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>Telefono</span></strong></td>
+<td><span>varchar(11)</span></td>
+</tr>
+<tr>
+<td><strong><span>Tipo</span></strong></td>
+<td><span>char(1)</span></td>
+</tr>
+<tr>
+<td><strong><span>Vigencia</span></strong></td>
+<td><span>boolean</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Usuario" data-id="Obtener-Usuario"><a class="anchor hidden-xs" href="#Obtener-Usuario" title="Obtener-Usuario"><span class="octicon octicon-link"></span></a><span>Obtener Usuario</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Obtener Usuario</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerusuarios" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerusuarios</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response" data-id="Response"><a class="anchor hidden-xs" href="#Response" title="Response"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "apellido": "fernandez",
+        "contraseña": "edu123",
+        "email": "edu8@gmail.com",
+        "id_usuario": 2,
+        "nombre": "edu",
+        "telefono": "912203789",
+        "tipo": "V",
+        "vigencia": "Vigente"
+    }
+]
+</code></pre><h4 id="Obtener-Usuario-Por-ID" data-id="Obtener-Usuario-Por-ID"><a class="anchor hidden-xs" href="#Obtener-Usuario-Por-ID" title="Obtener-Usuario-Por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Usuario Por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Usuario por ID</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerusuario/2" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerusuario/2</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response1" data-id="Response"><a class="anchor hidden-xs" href="#Response1" title="Response1"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>    {
+        "apellido": "fernandez",
+        "contraseña": "edu123",
+        "email": "edu8@gmail.com",
+        "id_usuario": 2,
+        "nombre": "edu",
+        "telefono": "912203789",
+        "tipo": "V",
+        "vigencia": 1
+    }
+
+</code></pre><h4 id="Guardar-Usuario" data-id="Guardar-Usuario"><a class="anchor hidden-xs" href="#Guardar-Usuario" title="Guardar-Usuario"><span class="octicon octicon-link"></span></a><span>Guardar Usuario</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Guardar Usuario</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardarusuario" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardarusuario</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request" data-id="Request"><a class="anchor hidden-xs" href="#Request" title="Request"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>        {
+            "nombres": "edu",
+            "apellido": "fernandez",
+            "email": "edu8@gmail.com",
+            "contraseña": "edu123",
+            "telefono": "912203789",
+            "tipo": "V"
+            "nombre_usuario": "admin"
+        }
+</code></pre><h5 id="Response2" data-id="Response"><a class="anchor hidden-xs" href="#Response2" title="Response2"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "usuario registrado correctamente"
+}
+</code></pre><h4 id="Actualizar-Usuario" data-id="Actualizar-Usuario"><a class="anchor hidden-xs" href="#Actualizar-Usuario" title="Actualizar-Usuario"><span class="octicon octicon-link"></span></a><span>Actualizar Usuario</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Usuario</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizarusuario" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizarusuario</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request1" data-id="Request"><a class="anchor hidden-xs" href="#Request1" title="Request1"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "id_usuario": 4,
+        "nombres": "Pedro",
+        "apellido": "Nuñez Perez",
+        "email": "n@gmail.com",
+        "contraseña": "123456789",
+        "telefono": "912203700",
+        "tipo": "C",
+        "vigencia": 1,
+        "nombre_usuario": "pepe001"
+    }
+</code></pre><h5 id="Response3" data-id="Response"><a class="anchor hidden-xs" href="#Response3" title="Response3"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "usuario actualizado correctamente"
+}
+</code></pre><h4 id="Eliminar-Usuario" data-id="Eliminar-Usuario"><a class="anchor hidden-xs" href="#Eliminar-Usuario" title="Eliminar-Usuario"><span class="octicon octicon-link"></span></a><span>Eliminar Usuario</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Eliminar Usuario</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminarusuario" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminarusuario</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request2" data-id="Request"><a class="anchor hidden-xs" href="#Request2" title="Request2"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "id_usuario" : 3
+}
+</code></pre><h5 id="Response4" data-id="Response"><a class="anchor hidden-xs" href="#Response4" title="Response4"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Usuario eliminado correctamente"
+}
+</code></pre><h3 id="TABLA-CLIENTE" data-id="TABLA-CLIENTE"><a class="anchor hidden-xs" href="#TABLA-CLIENTE" title="TABLA-CLIENTE"><span class="octicon octicon-link"></span></a><span>TABLA: CLIENTE</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_cliente</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>Nombres</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>Apellido</span></strong></td>
+<td><span>varchar(40)</span></td>
+</tr>
+<tr>
+<td><strong><span>DNI</span></strong></td>
+<td><span>vachar(8)</span></td>
+</tr>
+<tr>
+<td><strong><span>Email</span></strong></td>
+<td><span>varchar(60)</span></td>
+</tr>
+<tr>
+<td><strong><span>Telefono</span></strong></td>
+<td><span>varchar(11)</span></td>
+</tr>
+<tr>
+<td><strong><span>Vigencia</span></strong></td>
+<td><span>boolean</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Cliente" data-id="Obtener-Cliente"><a class="anchor hidden-xs" href="#Obtener-Cliente" title="Obtener-Cliente"><span class="octicon octicon-link"></span></a><span>Obtener Cliente</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Obtener Cliente</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerclientes" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerclientes</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response5" data-id="Response"><a class="anchor hidden-xs" href="#Response5" title="Response5"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "apellido": "Villa Mera",
+        "dni": "76937008",
+        "email": "xxxxxxxx@gmail.com",
+        "id_cliente": 3,
+        "nombres": "Jasmin Elizaaa",
+        "telefono": "902430969",
+        "vigencia": "No Vigente"
+    },
+    {
+        "apellido": "Villa Mera",
+        "dni": "43724679",
+        "email": "jasminvm@gmail.com",
+        "id_cliente": 6,
+        "nombres": "Jasmin",
+        "telefono": "902430969",
+        "vigencia": "Vigente"
+    }
+]
+</code></pre><h4 id="Obtener-Cliente-Por-ID" data-id="Obtener-Cliente-Por-ID"><a class="anchor hidden-xs" href="#Obtener-Cliente-Por-ID" title="Obtener-Cliente-Por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Cliente Por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Cliente por Id</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenercliente/3" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenercliente/3</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response6" data-id="Response"><a class="anchor hidden-xs" href="#Response6" title="Response6"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "apellido": "Villa Mera",
+        "dni": "76937008",
+        "email": "xxxxxxxx@gmail.com",
+        "id_cliente": 3,
+        "nombres": "Jasmin Elizaaa",
+        "telefono": "902430969",
+        "vigencia": 0
+    }
+]
+
+</code></pre><h4 id="Guardar-Cliente" data-id="Guardar-Cliente"><a class="anchor hidden-xs" href="#Guardar-Cliente" title="Guardar-Cliente"><span class="octicon octicon-link"></span></a><span>Guardar Cliente</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Guardar Cliente</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardarcliente" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardarcliente</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request3" data-id="Request"><a class="anchor hidden-xs" href="#Request3" title="Request3"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "nombres" : "Jose",
+        "apellido" : "Chavez Sanchez",
+        "dni" : "71116809",
+        "email" : "joseraulchavezsanchez12345678@gmail.com",
+        "telefono" : "978420505"
+    }
+
+</code></pre><h5 id="Response7" data-id="Response"><a class="anchor hidden-xs" href="#Response7" title="Response7"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "cliente registrado correctamente"
+}
+</code></pre><hr><h4 id="Actualizar-Cliente" data-id="Actualizar-Cliente"><a class="anchor hidden-xs" href="#Actualizar-Cliente" title="Actualizar-Cliente"><span class="octicon octicon-link"></span></a><span>Actualizar Cliente</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Cliente</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizarcliente" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizarcliente</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request4" data-id="Request"><a class="anchor hidden-xs" href="#Request4" title="Request4"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "id_cliente" : "3",
+        "nombres" : "Jasmin Elizaaa",
+        "apellido" : "Villa Mera",
+        "dni" : "76937008",
+        "email" : "xxxxxxxx@gmail.com",
+        "telefono" : "902430969",
+        "vigencia" : 0
+    }
+</code></pre><h5 id="Response8" data-id="Response"><a class="anchor hidden-xs" href="#Response8" title="Response8"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Cliente actualizado correctamente"
+}
+</code></pre><h4 id="Eliminar-Cliente" data-id="Eliminar-Cliente"><a class="anchor hidden-xs" href="#Eliminar-Cliente" title="Eliminar-Cliente"><span class="octicon octicon-link"></span></a><span>Eliminar Cliente</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Eliminar Cliente</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminarcliente" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminarcliente</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request5" data-id="Request"><a class="anchor hidden-xs" href="#Request5" title="Request5"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "id_cliente": 5
+    }
+</code></pre><h5 id="Response9" data-id="Response"><a class="anchor hidden-xs" href="#Response9" title="Response9"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Cliente eliminado correctamente"
+}
+</code></pre><h3 id="TABLA-METODO-DE-PAGO" data-id="TABLA-METODO-DE-PAGO"><a class="anchor hidden-xs" href="#TABLA-METODO-DE-PAGO" title="TABLA-METODO-DE-PAGO"><span class="octicon octicon-link"></span></a><span>TABLA: METODO DE PAGO</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_metodo_pago</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>Nombre</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>Vigencia</span></strong></td>
+<td><span>Boolean</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Metodo-de-Pago" data-id="Obtener-Metodo-de-Pago"><a class="anchor hidden-xs" href="#Obtener-Metodo-de-Pago" title="Obtener-Metodo-de-Pago"><span class="octicon octicon-link"></span></a><span>Obtener Metodo de Pago</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Obtener Metodo de Pago</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenermetodopagos" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenermetodopagos</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response10" data-id="Response"><a class="anchor hidden-xs" href="#Response10" title="Response10"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "id_metodo_pago": 1,
+        "nombre": "efectivo",
+        "vigencia": "No Vigente"
+    }
+]
+</code></pre><h4 id="Obtener-Metodo-de-Pago-Por-ID" data-id="Obtener-Metodo-de-Pago-Por-ID"><a class="anchor hidden-xs" href="#Obtener-Metodo-de-Pago-Por-ID" title="Obtener-Metodo-de-Pago-Por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Metodo de Pago Por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Metodo de Pago por Id</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenermetodopago/1" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenermetodopago/1</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response11" data-id="Response"><a class="anchor hidden-xs" href="#Response11" title="Response11"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "id_metodo_pago": 1,
+        "nombre": "efectivo",
+        "vigencia": 0
+    }
+]
+
+</code></pre><hr><h4 id="Guardar-Metodo-de-Pago" data-id="Guardar-Metodo-de-Pago"><a class="anchor hidden-xs" href="#Guardar-Metodo-de-Pago" title="Guardar-Metodo-de-Pago"><span class="octicon octicon-link"></span></a><span>Guardar Metodo de Pago</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Guardar Metodo de Pago</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardarmetodopago" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardarmetodopago</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request6" data-id="Request"><a class="anchor hidden-xs" href="#Request6" title="Request6"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "nombre" : "credito"
+
+}
+</code></pre><h5 id="Response12" data-id="Response"><a class="anchor hidden-xs" href="#Response12" title="Response12"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Metodo pago registrado correctamente"
+}
+</code></pre><hr><h4 id="Actualizar-Metodo-de-Pago" data-id="Actualizar-Metodo-de-Pago"><a class="anchor hidden-xs" href="#Actualizar-Metodo-de-Pago" title="Actualizar-Metodo-de-Pago"><span class="octicon octicon-link"></span></a><span>Actualizar Metodo de Pago</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Metodo de Pago</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizarmetodopago" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizarmetodopago</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request7" data-id="Request"><a class="anchor hidden-xs" href="#Request7" title="Request7"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>        {
+            "id_metodo_pago": 1,
+            "nombre": "efectivo",
+            "vigencia": 0
+        }
+</code></pre><h5 id="Response13" data-id="Response"><a class="anchor hidden-xs" href="#Response13" title="Response13"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Metodo pago actualizado correctamente"
+}
+</code></pre><h4 id="Eliminar-Metodo-de-Pago" data-id="Eliminar-Metodo-de-Pago"><a class="anchor hidden-xs" href="#Eliminar-Metodo-de-Pago" title="Eliminar-Metodo-de-Pago"><span class="octicon octicon-link"></span></a><span>Eliminar Metodo de Pago</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Eliminar Metodo de Pago</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminarmetodopago" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminarmetodopago</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request8" data-id="Request"><a class="anchor hidden-xs" href="#Request8" title="Request8"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "id_metodo_pago" : "2"
+}
+</code></pre><h5 id="Response14" data-id="Response"><a class="anchor hidden-xs" href="#Response14" title="Response14"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Metodo de pago eliminado correctamente"
+}
+</code></pre><h3 id="TABLA-TIPO-DE-VENTA" data-id="TABLA-TIPO-DE-VENTA"><a class="anchor hidden-xs" href="#TABLA-TIPO-DE-VENTA" title="TABLA-TIPO-DE-VENTA"><span class="octicon octicon-link"></span></a><span>TABLA: TIPO DE VENTA</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_tipo_venta</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>Nombre</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>Vigencia</span></strong></td>
+<td><span>Boolean</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Tipo-de-Venta" data-id="Obtener-Tipo-de-Venta"><a class="anchor hidden-xs" href="#Obtener-Tipo-de-Venta" title="Obtener-Tipo-de-Venta"><span class="octicon octicon-link"></span></a><span>Obtener Tipo de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Tipo de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenertipoventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenertipoventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response15" data-id="Response"><a class="anchor hidden-xs" href="#Response15" title="Response15"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "id_tipo_venta": 1,
+        "nombre": "directa",
+        "vigencia": "No Vigente"
+    }
+]
+</code></pre><h4 id="Obtener-Tipo-de-Venta-por-ID" data-id="Obtener-Tipo-de-Venta-por-ID"><a class="anchor hidden-xs" href="#Obtener-Tipo-de-Venta-por-ID" title="Obtener-Tipo-de-Venta-por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Tipo de Venta por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Tipo de Venta por ID</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenertipoventa/1" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenertipoventa/1</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response16" data-id="Response"><a class="anchor hidden-xs" href="#Response16" title="Response16"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "id_tipo_venta": 1,
+        "nombre": "directa",
+        "vigencia": 0
+    }
+]
+</code></pre><h4 id="Guardar-Tipo-de-Venta" data-id="Guardar-Tipo-de-Venta"><a class="anchor hidden-xs" href="#Guardar-Tipo-de-Venta" title="Guardar-Tipo-de-Venta"><span class="octicon octicon-link"></span></a><span>Guardar Tipo de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Guardar Tipo de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardartipoventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardartipoventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request9" data-id="Request"><a class="anchor hidden-xs" href="#Request9" title="Request9"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "nombre" : "directa"
+}
+</code></pre><h5 id="Response17" data-id="Response"><a class="anchor hidden-xs" href="#Response17" title="Response17"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Tipo venta registrada correctamente"
+}
+</code></pre><h4 id="Actualizar-Tipo-de-Venta" data-id="Actualizar-Tipo-de-Venta"><a class="anchor hidden-xs" href="#Actualizar-Tipo-de-Venta" title="Actualizar-Tipo-de-Venta"><span class="octicon octicon-link"></span></a><span>Actualizar Tipo de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Tipo de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizartipoventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizartipoventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request10" data-id="Request"><a class="anchor hidden-xs" href="#Request10" title="Request10"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "id_marca": 5,
+        "nombre": "nike",
+        "vigencia": 0
+    }
+</code></pre><h5 id="Response18" data-id="Response"><a class="anchor hidden-xs" href="#Response18" title="Response18"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Tipo venta actualizada correctamente"
+}
+</code></pre><h4 id="Eliminar-Tipo-de-Venta" data-id="Eliminar-Tipo-de-Venta"><a class="anchor hidden-xs" href="#Eliminar-Tipo-de-Venta" title="Eliminar-Tipo-de-Venta"><span class="octicon octicon-link"></span></a><span>Eliminar Tipo de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Eliminar Tipo de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminartipoventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminartipoventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request11" data-id="Request"><a class="anchor hidden-xs" href="#Request11" title="Request11"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "id_tipo_venta" : "2"
+}
+</code></pre><h5 id="Response19" data-id="Response"><a class="anchor hidden-xs" href="#Response19" title="Response19"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Tipo venta eliminada correctamente"
+}
+</code></pre><h3 id="TABLA-MARCA" data-id="TABLA-MARCA"><a class="anchor hidden-xs" href="#TABLA-MARCA" title="TABLA-MARCA"><span class="octicon octicon-link"></span></a><span>TABLA: MARCA</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_marca</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>Nombre</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>Vigencia</span></strong></td>
+<td><span>boolean</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Marca" data-id="Obtener-Marca"><a class="anchor hidden-xs" href="#Obtener-Marca" title="Obtener-Marca"><span class="octicon octicon-link"></span></a><span>Obtener Marca</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Obtener Marca</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenermarcas" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenermarcas</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response20" data-id="Response"><a class="anchor hidden-xs" href="#Response20" title="Response20"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "id_marca": 1,
+        "nombre": "adidas",
+        "vigencia": "Vigente"
+    },
+    {
+        "id_marca": 2,
+        "nombre": "nike",
+        "vigencia": "Vigente"
+    }
+]
+</code></pre><h4 id="Obtener-Marca-Por-ID" data-id="Obtener-Marca-Por-ID"><a class="anchor hidden-xs" href="#Obtener-Marca-Por-ID" title="Obtener-Marca-Por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Marca Por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Marca por ID</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenermarca/3" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenermarca/3</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response21" data-id="Response"><a class="anchor hidden-xs" href="#Response21" title="Response21"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+  {
+    "id_marca": 3,
+    "nombre": "puma",
+    "vigencia": 1
+  }
+]
+
+</code></pre><h4 id="Guardar-Marca" data-id="Guardar-Marca"><a class="anchor hidden-xs" href="#Guardar-Marca" title="Guardar-Marca"><span class="octicon octicon-link"></span></a><span>Guardar Marca</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Guardar Marca</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardarmarca" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardarmarca</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request12" data-id="Request"><a class="anchor hidden-xs" href="#Request12" title="Request12"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "nombre": "puma"
+    }
+</code></pre><h5 id="Response22" data-id="Response"><a class="anchor hidden-xs" href="#Response22" title="Response22"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Marca registrada correctamente"
+}
+</code></pre><h4 id="Actualizar-Marca" data-id="Actualizar-Marca"><a class="anchor hidden-xs" href="#Actualizar-Marca" title="Actualizar-Marca"><span class="octicon octicon-link"></span></a><span>Actualizar Marca</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Marca</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizarmarca" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizarmarca</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request13" data-id="Request"><a class="anchor hidden-xs" href="#Request13" title="Request13"><span class="octicon octicon-link"></span></a><span>Request</span></h5><p><span>{</span><br>
+<span>“id_marca”: 2,</span><br>
+<span>“nombre”: “adidas”,</span><br>
+<span>“vigencia”: 0</span><br>
+<span>}</span></p><h5 id="Response23" data-id="Response"><a class="anchor hidden-xs" href="#Response23" title="Response23"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Marca actualizada correctamente"
+}
+</code></pre><h4 id="Eliminar-Marca" data-id="Eliminar-Marca"><a class="anchor hidden-xs" href="#Eliminar-Marca" title="Eliminar-Marca"><span class="octicon octicon-link"></span></a><span>Eliminar Marca</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Eliminar Marca</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminarmarca" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminarmarca</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request14" data-id="Request"><a class="anchor hidden-xs" href="#Request14" title="Request14"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "id_marca": 2
+    }
+</code></pre><h5 id="Response24" data-id="Response"><a class="anchor hidden-xs" href="#Response24" title="Response24"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Marca eliminada correctamente"
+}
+</code></pre><h3 id="TABLA-CATEGORIA" data-id="TABLA-CATEGORIA"><a class="anchor hidden-xs" href="#TABLA-CATEGORIA" title="TABLA-CATEGORIA"><span class="octicon octicon-link"></span></a><span>TABLA: CATEGORIA</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_categoria</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>Nombre</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>Vigencia</span></strong></td>
+<td><span>boolean</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Categoria" data-id="Obtener-Categoria"><a class="anchor hidden-xs" href="#Obtener-Categoria" title="Obtener-Categoria"><span class="octicon octicon-link"></span></a><span>Obtener Categoria</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Obtener Categoria</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenercategorias" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenercategorias</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response25" data-id="Response"><a class="anchor hidden-xs" href="#Response25" title="Response25"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "id_categoria": 1,
+        "nombre": "fiesta",
+        "vigencia": "Vigente"
+    }
+]
+</code></pre><h4 id="Obtener-Categoria-Por-ID" data-id="Obtener-Categoria-Por-ID"><a class="anchor hidden-xs" href="#Obtener-Categoria-Por-ID" title="Obtener-Categoria-Por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Categoria Por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Categoria por Id</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenercategoria/1" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenercategoria/1</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response26" data-id="Response"><a class="anchor hidden-xs" href="#Response26" title="Response26"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "id_categoria": 1,
+        "nombre": "fiesta",
+        "vigencia": 1
+    }
+]
+
+</code></pre><h4 id="Guardar-Categoria" data-id="Guardar-Categoria"><a class="anchor hidden-xs" href="#Guardar-Categoria" title="Guardar-Categoria"><span class="octicon octicon-link"></span></a><span>Guardar Categoria</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Guardar Categoria</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardarcategoria" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardarcategoria</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request15" data-id="Request"><a class="anchor hidden-xs" href="#Request15" title="Request15"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "nombre": "elegante"
+    }
+
+
+</code></pre><h5 id="Response27" data-id="Response"><a class="anchor hidden-xs" href="#Response27" title="Response27"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Categoria registrada correctamente"
+}
+</code></pre><hr><h4 id="Actualizar-Categoria" data-id="Actualizar-Categoria"><a class="anchor hidden-xs" href="#Actualizar-Categoria" title="Actualizar-Categoria"><span class="octicon octicon-link"></span></a><span>Actualizar Categoria</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Categoria</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizarcategoria" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizarcategoria</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request16" data-id="Request"><a class="anchor hidden-xs" href="#Request16" title="Request16"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "id_categoria": 1,
+        "nombre": "fiestas",
+        "vigencia": 1
+    }
+</code></pre><h5 id="Response28" data-id="Response"><a class="anchor hidden-xs" href="#Response28" title="Response28"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Categoria actualizada correctamente"
+}
+</code></pre><h4 id="Eliminar-Categoria" data-id="Eliminar-Categoria"><a class="anchor hidden-xs" href="#Eliminar-Categoria" title="Eliminar-Categoria"><span class="octicon octicon-link"></span></a><span>Eliminar Categoria</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Eliminar Categoria</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminarcategoria" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminarcategoria</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request17" data-id="Request"><a class="anchor hidden-xs" href="#Request17" title="Request17"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+        "id_categoria": 3
+
+}
+</code></pre><h5 id="Response29" data-id="Response"><a class="anchor hidden-xs" href="#Response29" title="Response29"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Categoria eliminada correctamente"
+}
+</code></pre><h3 id="TABLA-PRODUCTO" data-id="TABLA-PRODUCTO"><a class="anchor hidden-xs" href="#TABLA-PRODUCTO" title="TABLA-PRODUCTO"><span class="octicon octicon-link"></span></a><span>TABLA: PRODUCTO</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_producto</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>id_marca</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>id_categoria</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>nombre</span></strong></td>
+<td><span>varchar(40)</span></td>
+</tr>
+<tr>
+<td><strong><span>descripcion</span></strong></td>
+<td><span>varchar(150)</span></td>
+</tr>
+<tr>
+<td><strong><span>precio</span></strong></td>
+<td><span>numeric(10,2)</span></td>
+</tr>
+<tr>
+<td><strong><span>stock</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>modelo</span></strong></td>
+<td><span>varchar(30)</span></td>
+</tr>
+<tr>
+<td><strong><span>vigencia</span></strong></td>
+<td><span>boolean</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Producto" data-id="Obtener-Producto"><a class="anchor hidden-xs" href="#Obtener-Producto" title="Obtener-Producto"><span class="octicon octicon-link"></span></a><span>Obtener Producto</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Obtener Producto</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerproductos" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerproductos</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response30" data-id="Response"><a class="anchor hidden-xs" href="#Response30" title="Response30"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "descripcion": "de cuero",
+        "id_producto": 1,
+        "marca_id": "adidas",
+        "modelo": "",
+        "nombre": "chanclas",
+        "precio ": "60.00",
+        "stock": 100,
+        "vigencia": "Vigente"
+    }
+]
+</code></pre><h4 id="Obtener-Producto-Por-ID" data-id="Obtener-Producto-Por-ID"><a class="anchor hidden-xs" href="#Obtener-Producto-Por-ID" title="Obtener-Producto-Por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Producto Por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Producto por Id</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerproducto/1" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerproducto/1</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response31" data-id="Response"><a class="anchor hidden-xs" href="#Response31" title="Response31"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "descripcion": "de cuero",
+        "id_producto": 1,
+        "marca_id": 1,
+        "modelo": "",
+        "nombre": "chanclas",
+        "precio ": "60.00",
+        "stock": 100,
+        "vigencia": 1
+    }
+]
+
+</code></pre><hr><h4 id="Guardar-Producto" data-id="Guardar-Producto"><a class="anchor hidden-xs" href="#Guardar-Producto" title="Guardar-Producto"><span class="octicon octicon-link"></span></a><span>Guardar Producto</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Guardar Producto</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardarproducto" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardarproducto</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request18" data-id="Request"><a class="anchor hidden-xs" href="#Request18" title="Request18"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "nombre" : "chanclas",
+    "descripcion" : "de cuero",
+    "precio" : "60",
+    "stock" : "100",
+    "modelo" : "" ,
+    "marca_id" : "1",
+    "categoria_id" : "1"
+}
+</code></pre><h5 id="Response32" data-id="Response"><a class="anchor hidden-xs" href="#Response32" title="Response32"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "message": "Producto registrado correctamente",
+    "status": "1"
+}
+</code></pre><hr><h4 id="Actualizar-Producto" data-id="Actualizar-Producto"><a class="anchor hidden-xs" href="#Actualizar-Producto" title="Actualizar-Producto"><span class="octicon octicon-link"></span></a><span>Actualizar Producto</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Producto</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizarproducto" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizarproducto</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request19" data-id="Request"><a class="anchor hidden-xs" href="#Request19" title="Request19"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "id_producto" : "1",
+    "nombre" : "zapatos",
+    "descripcion" : "bamba",
+    "precio" : "70",
+    "stock" : "100",
+    "modelo" : "ddd" ,
+    "marca_id" : "1",
+    "categoria_id" : "1",
+    "vigencia" : "true"
+
+}
+</code></pre><h5 id="Response33" data-id="Response"><a class="anchor hidden-xs" href="#Response33" title="Response33"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "message": "Producto actualizado correctamente",
+    "status": "1"
+}
+</code></pre><h4 id="Eliminar-Producto" data-id="Eliminar-Producto"><a class="anchor hidden-xs" href="#Eliminar-Producto" title="Eliminar-Producto"><span class="octicon octicon-link"></span></a><span>Eliminar Producto</span></h4><table>
+<thead>
+<tr>
+<th><span>Nombre</span></th>
+<th><span>Eliminar Producto</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminarproducto" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminarproducto</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request20" data-id="Request"><a class="anchor hidden-xs" href="#Request20" title="Request20"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "id_producto" : "2"
+
+}
+</code></pre><h5 id="Response34" data-id="Response"><a class="anchor hidden-xs" href="#Response34" title="Response34"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Producto eliminado correctamente"
+}
+</code></pre><h3 id="TABLA-VENTA" data-id="TABLA-VENTA"><a class="anchor hidden-xs" href="#TABLA-VENTA" title="TABLA-VENTA"><span class="octicon octicon-link"></span></a><span>TABLA: VENTA</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_metodo_pago</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>id_cliente</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>id_usuario</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>id_tipo_venta</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>fecha</span></strong></td>
+<td><span>date</span></td>
+</tr>
+<tr>
+<td><strong><span>total</span></strong></td>
+<td><span>numeric(10,2)</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Venta" data-id="Obtener-Venta"><a class="anchor hidden-xs" href="#Obtener-Venta" title="Obtener-Venta"><span class="octicon octicon-link"></span></a><span>Obtener Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerventas" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerventas</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response35" data-id="Response"><a class="anchor hidden-xs" href="#Response35" title="Response35"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "cliente_id": 3,
+        "fecha": "Sat, 17 Jun 2023 00:00:00 GMT",
+        "id_venta": 1,
+        "metodo_pago_id": 1,
+        "total": "100.00",
+        "usuario_id": 2
+    }
+]
+</code></pre><h4 id="Obtener-Venta-por-ID" data-id="Obtener-Venta-por-ID"><a class="anchor hidden-xs" href="#Obtener-Venta-por-ID" title="Obtener-Venta-por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Venta por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Venta por ID</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerventa/1" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerventa/1</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response36" data-id="Response"><a class="anchor hidden-xs" href="#Response36" title="Response36"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "cliente_id": 3,
+        "fecha": "Sat, 17 Jun 2023 00:00:00 GMT",
+        "id_venta": 1,
+        "metodo_pago_id": 1,
+        "total": "100.00",
+        "usuario_id": 2
+    }
+]
+</code></pre><h4 id="Guardar-Venta" data-id="Guardar-Venta"><a class="anchor hidden-xs" href="#Guardar-Venta" title="Guardar-Venta"><span class="octicon octicon-link"></span></a><span>Guardar Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Guardar Tipo de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardarventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardarventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request21" data-id="Request"><a class="anchor hidden-xs" href="#Request21" title="Request21"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "cliente_id" : 3,
+    "metodo_pago_id" : 1,
+    "tipo_venta_id" : 1,
+    "usuario_id" : 2,
+    "fecha" : "2023-06-17",
+    "total" : "100.00" 
+}
+</code></pre><h5 id="Response37" data-id="Response"><a class="anchor hidden-xs" href="#Response37" title="Response37"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "message": "Venta registrada correctamente",
+    "status": "1"
+}
+</code></pre><h4 id="Actualizar-Venta" data-id="Actualizar-Venta"><a class="anchor hidden-xs" href="#Actualizar-Venta" title="Actualizar-Venta"><span class="octicon octicon-link"></span></a><span>Actualizar Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizarventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizarventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request22" data-id="Request"><a class="anchor hidden-xs" href="#Request22" title="Request22"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>    {
+        "id_venta" : 2,
+        "cliente_id": 3,
+        "metodo_pago_id": 1,
+        "tipo_venta_id":1,
+        "usuario_id": 2,
+        "fecha": "2023-06-01",
+        "total": 120.00
+    }
+</code></pre><h5 id="Response38" data-id="Response"><a class="anchor hidden-xs" href="#Response38" title="Response38"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Tipo venta actualizada correctamente"
+}
+</code></pre><h4 id="Eliminar-Venta" data-id="Eliminar-Venta"><a class="anchor hidden-xs" href="#Eliminar-Venta" title="Eliminar-Venta"><span class="octicon octicon-link"></span></a><span>Eliminar Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Eliminar Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminarventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminarventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request23" data-id="Request"><a class="anchor hidden-xs" href="#Request23" title="Request23"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+    "id_venta" : 2
+}
+</code></pre><h5 id="Response39" data-id="Response"><a class="anchor hidden-xs" href="#Response39" title="Response39"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Venta eliminada correctamente"
+}
+</code></pre><h3 id="TABLA-DETALLE-VENTA" data-id="TABLA-DETALLE-VENTA"><a class="anchor hidden-xs" href="#TABLA-DETALLE-VENTA" title="TABLA-DETALLE-VENTA"><span class="octicon octicon-link"></span></a><span>TABLA: DETALLE VENTA</span></h3><table>
+<thead>
+<tr>
+<th><span>Columna</span></th>
+<th><span>Tipo de dato</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>id_venta</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>id_producto</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>cantidad</span></strong></td>
+<td><span>Integer</span></td>
+</tr>
+<tr>
+<td><strong><span>precio_unitario</span></strong></td>
+<td><span>numeric(10,2)</span></td>
+</tr>
+<tr>
+<td><strong><span>subtotal</span></strong></td>
+<td><span>numeric(10,2)</span></td>
+</tr>
+</tbody>
+</table><h4 id="Obtener-Detalle-de-Venta" data-id="Obtener-Detalle-de-Venta"><a class="anchor hidden-xs" href="#Obtener-Detalle-de-Venta" title="Obtener-Detalle-de-Venta"><span class="octicon octicon-link"></span></a><span>Obtener Detalle de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Detalle de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerdetalleventas" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerdetalleventas</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response40" data-id="Response"><a class="anchor hidden-xs" href="#Response40" title="Response40"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "cantidad": 2,
+        "precio_unitario": "60.00",
+        "producto_id": 1,
+        "subtotal": "120.00",
+        "venta_id": 1
+    }
+]
+</code></pre><h4 id="Obtener-Detalle-de-Venta-por-ID" data-id="Obtener-Detalle-de-Venta-por-ID"><a class="anchor hidden-xs" href="#Obtener-Detalle-de-Venta-por-ID" title="Obtener-Detalle-de-Venta-por-ID"><span class="octicon octicon-link"></span></a><span>Obtener Detalle de Venta por ID</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Obtener Venta por ID</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>GET</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_obtenerdetalleventa/1/1" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_obtenerdetalleventa/1/1</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Response41" data-id="Response"><a class="anchor hidden-xs" href="#Response41" title="Response41"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>[
+    {
+        "cantidad": 2,
+        "precio_unitario": "60.00",
+        "producto_id": 1,
+        "subtotal": "120.00",
+        "venta_id": 1
+    }
+]
+</code></pre><h4 id="Guardar-Detalle-de-Venta" data-id="Guardar-Detalle-de-Venta"><a class="anchor hidden-xs" href="#Guardar-Detalle-de-Venta" title="Guardar-Detalle-de-Venta"><span class="octicon octicon-link"></span></a><span>Guardar Detalle de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Guardar Detalle de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_guardardetalleventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_guardardetalleventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request24" data-id="Request"><a class="anchor hidden-xs" href="#Request24" title="Request24"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+        "venta_id": 1,
+        "producto_id" : 1,
+        "cantidad": 2,
+        "precio_unitario" : 60.00,
+        "subtotal" : 120.00
+}
+</code></pre><h5 id="Response42" data-id="Response"><a class="anchor hidden-xs" href="#Response42" title="Response42"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "message": "Detalle de Venta registrada correctamente",
+    "status": "1"
+}
+</code></pre><h4 id="Actualizar-Detalle-de-Venta" data-id="Actualizar-Detalle-de-Venta"><a class="anchor hidden-xs" href="#Actualizar-Detalle-de-Venta" title="Actualizar-Detalle-de-Venta"><span class="octicon octicon-link"></span></a><span>Actualizar Detalle de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Actualizar Detalle de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_actualizardetalleventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_actualizardetalleventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request25" data-id="Request"><a class="anchor hidden-xs" href="#Request25" title="Request25"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+        "venta_id": 1,
+        "producto_id" : 1,
+        "cantidad": 2,
+        "precio_unitario" : 70.00,
+        "subtotal" : 150.00
+}
+</code></pre><h5 id="Response43" data-id="Response"><a class="anchor hidden-xs" href="#Response43" title="Response43"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Detalle venta actualizada correctamente"
+}
+</code></pre><h4 id="Eliminar-Detalle-de-Venta" data-id="Eliminar-Detalle-de-Venta"><a class="anchor hidden-xs" href="#Eliminar-Detalle-de-Venta" title="Eliminar-Detalle-de-Venta"><span class="octicon octicon-link"></span></a><span>Eliminar Detalle de Venta</span></h4><table>
+<thead>
+<tr>
+<th><strong><span>Nombre</span></strong></th>
+<th><span>Eliminar Detalle de Venta</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><span>Método</span></strong></td>
+<td><span>POST</span></td>
+</tr>
+<tr>
+<td><strong><span>URL</span></strong></td>
+<td><a href="http://team03.pythonanywhere.com/api_eliminardetalleventa" target="_blank" rel="noopener"><span>team03.pythonanywhere.com/api_eliminardetalleventa</span></a></td>
+</tr>
+</tbody>
+</table><h5 id="Request26" data-id="Request"><a class="anchor hidden-xs" href="#Request26" title="Request26"><span class="octicon octicon-link"></span></a><span>Request</span></h5><pre><code>{
+        "venta_id": 2,
+        "producto_id" : 1
+}
+</code></pre><h5 id="Response44" data-id="Response"><a class="anchor hidden-xs" href="#Response44" title="Response44"><span class="octicon octicon-link"></span></a><span>Response</span></h5><pre><code>{
+    "Mensaje": "Detalle Venta eliminada correctamente"
+}
+</code></pre></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Integrantes" title="Integrantes">Integrantes</a></li>
+<li><a href="#TABLA-USUARIO" title="TABLA: USUARIO">TABLA: USUARIO</a><ul class="nav">
+<li><a href="#Obtener-Usuario" title="Obtener Usuario">Obtener Usuario</a></li>
+<li><a href="#Obtener-Usuario-Por-ID" title="Obtener Usuario Por ID">Obtener Usuario Por ID</a></li>
+<li><a href="#Guardar-Usuario" title="Guardar Usuario">Guardar Usuario</a></li>
+<li><a href="#Actualizar-Usuario" title="Actualizar Usuario">Actualizar Usuario</a></li>
+<li><a href="#Eliminar-Usuario" title="Eliminar Usuario">Eliminar Usuario</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-CLIENTE" title="TABLA: CLIENTE">TABLA: CLIENTE</a><ul class="nav">
+<li><a href="#Obtener-Cliente" title="Obtener Cliente">Obtener Cliente</a></li>
+<li><a href="#Obtener-Cliente-Por-ID" title="Obtener Cliente Por ID">Obtener Cliente Por ID</a></li>
+<li><a href="#Guardar-Cliente" title="Guardar Cliente">Guardar Cliente</a></li>
+<li><a href="#Actualizar-Cliente" title="Actualizar Cliente">Actualizar Cliente</a></li>
+<li><a href="#Eliminar-Cliente" title="Eliminar Cliente">Eliminar Cliente</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-METODO-DE-PAGO" title="TABLA: METODO DE PAGO">TABLA: METODO DE PAGO</a><ul class="nav">
+<li><a href="#Obtener-Metodo-de-Pago" title="Obtener Metodo de Pago">Obtener Metodo de Pago</a></li>
+<li><a href="#Obtener-Metodo-de-Pago-Por-ID" title="Obtener Metodo de Pago Por ID">Obtener Metodo de Pago Por ID</a></li>
+<li><a href="#Guardar-Metodo-de-Pago" title="Guardar Metodo de Pago">Guardar Metodo de Pago</a></li>
+<li><a href="#Actualizar-Metodo-de-Pago" title="Actualizar Metodo de Pago">Actualizar Metodo de Pago</a></li>
+<li><a href="#Eliminar-Metodo-de-Pago" title="Eliminar Metodo de Pago">Eliminar Metodo de Pago</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-TIPO-DE-VENTA" title="TABLA: TIPO DE VENTA">TABLA: TIPO DE VENTA</a><ul class="nav">
+<li><a href="#Obtener-Tipo-de-Venta" title="Obtener Tipo de Venta">Obtener Tipo de Venta</a></li>
+<li><a href="#Obtener-Tipo-de-Venta-por-ID" title="Obtener Tipo de Venta por ID">Obtener Tipo de Venta por ID</a></li>
+<li><a href="#Guardar-Tipo-de-Venta" title="Guardar Tipo de Venta">Guardar Tipo de Venta</a></li>
+<li><a href="#Actualizar-Tipo-de-Venta" title="Actualizar Tipo de Venta">Actualizar Tipo de Venta</a></li>
+<li><a href="#Eliminar-Tipo-de-Venta" title="Eliminar Tipo de Venta">Eliminar Tipo de Venta</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-MARCA" title="TABLA: MARCA">TABLA: MARCA</a><ul class="nav">
+<li><a href="#Obtener-Marca" title="Obtener Marca">Obtener Marca</a></li>
+<li><a href="#Obtener-Marca-Por-ID" title="Obtener Marca Por ID">Obtener Marca Por ID</a></li>
+<li><a href="#Guardar-Marca" title="Guardar Marca">Guardar Marca</a></li>
+<li><a href="#Actualizar-Marca" title="Actualizar Marca">Actualizar Marca</a></li>
+<li><a href="#Eliminar-Marca" title="Eliminar Marca">Eliminar Marca</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-CATEGORIA" title="TABLA: CATEGORIA">TABLA: CATEGORIA</a><ul class="nav">
+<li><a href="#Obtener-Categoria" title="Obtener Categoria">Obtener Categoria</a></li>
+<li><a href="#Obtener-Categoria-Por-ID" title="Obtener Categoria Por ID">Obtener Categoria Por ID</a></li>
+<li><a href="#Guardar-Categoria" title="Guardar Categoria">Guardar Categoria</a></li>
+<li><a href="#Actualizar-Categoria" title="Actualizar Categoria">Actualizar Categoria</a></li>
+<li><a href="#Eliminar-Categoria" title="Eliminar Categoria">Eliminar Categoria</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-PRODUCTO" title="TABLA: PRODUCTO">TABLA: PRODUCTO</a><ul class="nav">
+<li><a href="#Obtener-Producto" title="Obtener Producto">Obtener Producto</a></li>
+<li><a href="#Obtener-Producto-Por-ID" title="Obtener Producto Por ID">Obtener Producto Por ID</a></li>
+<li><a href="#Guardar-Producto" title="Guardar Producto">Guardar Producto</a></li>
+<li><a href="#Actualizar-Producto" title="Actualizar Producto">Actualizar Producto</a></li>
+<li><a href="#Eliminar-Producto" title="Eliminar Producto">Eliminar Producto</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-VENTA" title="TABLA: VENTA">TABLA: VENTA</a><ul class="nav">
+<li><a href="#Obtener-Venta" title="Obtener Venta">Obtener Venta</a></li>
+<li><a href="#Obtener-Venta-por-ID" title="Obtener Venta por ID">Obtener Venta por ID</a></li>
+<li><a href="#Guardar-Venta" title="Guardar Venta">Guardar Venta</a></li>
+<li><a href="#Actualizar-Venta" title="Actualizar Venta">Actualizar Venta</a></li>
+<li><a href="#Eliminar-Venta" title="Eliminar Venta">Eliminar Venta</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-DETALLE-VENTA" title="TABLA: DETALLE VENTA">TABLA: DETALLE VENTA</a><ul class="nav">
+<li><a href="#Obtener-Detalle-de-Venta" title="Obtener Detalle de Venta">Obtener Detalle de Venta</a></li>
+<li><a href="#Obtener-Detalle-de-Venta-por-ID" title="Obtener Detalle de Venta por ID">Obtener Detalle de Venta por ID</a></li>
+<li><a href="#Guardar-Detalle-de-Venta" title="Guardar Detalle de Venta">Guardar Detalle de Venta</a></li>
+<li><a href="#Actualizar-Detalle-de-Venta" title="Actualizar Detalle de Venta">Actualizar Detalle de Venta</a></li>
+<li><a href="#Eliminar-Detalle-de-Venta" title="Eliminar Detalle de Venta">Eliminar Detalle de Venta</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
+        <div class="toc"><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Integrantes" title="Integrantes">Integrantes</a></li>
+<li><a href="#TABLA-USUARIO" title="TABLA: USUARIO">TABLA: USUARIO</a><ul class="nav">
+<li><a href="#Obtener-Usuario" title="Obtener Usuario">Obtener Usuario</a></li>
+<li><a href="#Obtener-Usuario-Por-ID" title="Obtener Usuario Por ID">Obtener Usuario Por ID</a></li>
+<li><a href="#Guardar-Usuario" title="Guardar Usuario">Guardar Usuario</a></li>
+<li><a href="#Actualizar-Usuario" title="Actualizar Usuario">Actualizar Usuario</a></li>
+<li><a href="#Eliminar-Usuario" title="Eliminar Usuario">Eliminar Usuario</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-CLIENTE" title="TABLA: CLIENTE">TABLA: CLIENTE</a><ul class="nav">
+<li><a href="#Obtener-Cliente" title="Obtener Cliente">Obtener Cliente</a></li>
+<li><a href="#Obtener-Cliente-Por-ID" title="Obtener Cliente Por ID">Obtener Cliente Por ID</a></li>
+<li><a href="#Guardar-Cliente" title="Guardar Cliente">Guardar Cliente</a></li>
+<li><a href="#Actualizar-Cliente" title="Actualizar Cliente">Actualizar Cliente</a></li>
+<li><a href="#Eliminar-Cliente" title="Eliminar Cliente">Eliminar Cliente</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-METODO-DE-PAGO" title="TABLA: METODO DE PAGO">TABLA: METODO DE PAGO</a><ul class="nav">
+<li><a href="#Obtener-Metodo-de-Pago" title="Obtener Metodo de Pago">Obtener Metodo de Pago</a></li>
+<li><a href="#Obtener-Metodo-de-Pago-Por-ID" title="Obtener Metodo de Pago Por ID">Obtener Metodo de Pago Por ID</a></li>
+<li><a href="#Guardar-Metodo-de-Pago" title="Guardar Metodo de Pago">Guardar Metodo de Pago</a></li>
+<li><a href="#Actualizar-Metodo-de-Pago" title="Actualizar Metodo de Pago">Actualizar Metodo de Pago</a></li>
+<li><a href="#Eliminar-Metodo-de-Pago" title="Eliminar Metodo de Pago">Eliminar Metodo de Pago</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-TIPO-DE-VENTA" title="TABLA: TIPO DE VENTA">TABLA: TIPO DE VENTA</a><ul class="nav">
+<li><a href="#Obtener-Tipo-de-Venta" title="Obtener Tipo de Venta">Obtener Tipo de Venta</a></li>
+<li><a href="#Obtener-Tipo-de-Venta-por-ID" title="Obtener Tipo de Venta por ID">Obtener Tipo de Venta por ID</a></li>
+<li><a href="#Guardar-Tipo-de-Venta" title="Guardar Tipo de Venta">Guardar Tipo de Venta</a></li>
+<li><a href="#Actualizar-Tipo-de-Venta" title="Actualizar Tipo de Venta">Actualizar Tipo de Venta</a></li>
+<li><a href="#Eliminar-Tipo-de-Venta" title="Eliminar Tipo de Venta">Eliminar Tipo de Venta</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-MARCA" title="TABLA: MARCA">TABLA: MARCA</a><ul class="nav">
+<li><a href="#Obtener-Marca" title="Obtener Marca">Obtener Marca</a></li>
+<li><a href="#Obtener-Marca-Por-ID" title="Obtener Marca Por ID">Obtener Marca Por ID</a></li>
+<li><a href="#Guardar-Marca" title="Guardar Marca">Guardar Marca</a></li>
+<li><a href="#Actualizar-Marca" title="Actualizar Marca">Actualizar Marca</a></li>
+<li><a href="#Eliminar-Marca" title="Eliminar Marca">Eliminar Marca</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-CATEGORIA" title="TABLA: CATEGORIA">TABLA: CATEGORIA</a><ul class="nav">
+<li><a href="#Obtener-Categoria" title="Obtener Categoria">Obtener Categoria</a></li>
+<li><a href="#Obtener-Categoria-Por-ID" title="Obtener Categoria Por ID">Obtener Categoria Por ID</a></li>
+<li><a href="#Guardar-Categoria" title="Guardar Categoria">Guardar Categoria</a></li>
+<li><a href="#Actualizar-Categoria" title="Actualizar Categoria">Actualizar Categoria</a></li>
+<li><a href="#Eliminar-Categoria" title="Eliminar Categoria">Eliminar Categoria</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-PRODUCTO" title="TABLA: PRODUCTO">TABLA: PRODUCTO</a><ul class="nav">
+<li><a href="#Obtener-Producto" title="Obtener Producto">Obtener Producto</a></li>
+<li><a href="#Obtener-Producto-Por-ID" title="Obtener Producto Por ID">Obtener Producto Por ID</a></li>
+<li><a href="#Guardar-Producto" title="Guardar Producto">Guardar Producto</a></li>
+<li><a href="#Actualizar-Producto" title="Actualizar Producto">Actualizar Producto</a></li>
+<li><a href="#Eliminar-Producto" title="Eliminar Producto">Eliminar Producto</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-VENTA" title="TABLA: VENTA">TABLA: VENTA</a><ul class="nav">
+<li><a href="#Obtener-Venta" title="Obtener Venta">Obtener Venta</a></li>
+<li><a href="#Obtener-Venta-por-ID" title="Obtener Venta por ID">Obtener Venta por ID</a></li>
+<li><a href="#Guardar-Venta" title="Guardar Venta">Guardar Venta</a></li>
+<li><a href="#Actualizar-Venta" title="Actualizar Venta">Actualizar Venta</a></li>
+<li><a href="#Eliminar-Venta" title="Eliminar Venta">Eliminar Venta</a></li>
+</ul>
+</li>
+<li><a href="#TABLA-DETALLE-VENTA" title="TABLA: DETALLE VENTA">TABLA: DETALLE VENTA</a><ul class="nav">
+<li><a href="#Obtener-Detalle-de-Venta" title="Obtener Detalle de Venta">Obtener Detalle de Venta</a></li>
+<li><a href="#Obtener-Detalle-de-Venta-por-ID" title="Obtener Detalle de Venta por ID">Obtener Detalle de Venta por ID</a></li>
+<li><a href="#Guardar-Detalle-de-Venta" title="Guardar Detalle de Venta">Guardar Detalle de Venta</a></li>
+<li><a href="#Actualizar-Detalle-de-Venta" title="Actualizar Detalle de Venta">Actualizar Detalle de Venta</a></li>
+<li><a href="#Eliminar-Detalle-de-Venta" title="Eliminar Detalle de Venta">Eliminar Detalle de Venta</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
